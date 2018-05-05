@@ -3,7 +3,7 @@
     background-color: blueviolet;
 }
 
-#placeName {
+#placeName, h1 {
     color: #fddc4a;
     padding-bottom: 15px;
 }
