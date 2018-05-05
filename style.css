@@ -1,7 +1,11 @@
 .header, .jumbotron {
     text-align: center;
-    font: #fddc4a;
     background-color: blueviolet;
+}
+
+#placeName {
+    color: #fddc4a;
+    padding-bottom: 15px;
 }
 
 body {
