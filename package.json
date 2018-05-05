@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/hkichen/HotRestaurant/issues"
   },
-  "homepage": "https://github.com/hkichen/HotRestaurant#readme"
+  "homepage": "https://github.com/hkichen/HotRestaurant#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
 }
