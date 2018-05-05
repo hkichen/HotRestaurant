@@ -7,13 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="tables.css" />
+    
     <script src="server.js"></script>
 </head>
 <body>
     <div class="jumbotron">
-        //Header Info Goes Here//
+        <div class="header">
+            <h1 id="placeName">Super Hot Restaurant</h1>
+            <p>
+                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span> Reserve a Table <Table></Table>
+                </button>
+                <button type="button" class="btn btn-warning" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span> Home <Table></Table>
+                </button>
+            </p>
+        </div>
     </div>
-
     
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="reservations">
+                    <ol id="reservedSeats"> Reservations
+                        <li>Customer 1</li>
+                        <li>Customer 1</li>
+                        <li>Customer 1</li>
+                        <li>Customer 1</li>
+                        <li>Customer 1</li>
+                    </ol>
+                </div> 
+            </div>
+            
+            <div class="col-md-6">
+                <div class="waitlist">
+                    <ol id="waiting"> Wait List
+                        <li>Customer 1</li>
+                        <li>Customer 1</li>
+                        <li>Customer 1</li>
+                        <li>Customer 1</li>
+                        <li>Customer 1</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>    
 </body>
 </html>
