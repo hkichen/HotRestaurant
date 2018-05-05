@@ -2,54 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Super Popular Restaurant</title>
+  <title>Super Hot Restaurant</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://code.jquery.com/jquery.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </head>
 <body>
 
-  <div class="container">
-    <div class="jumbotron">
-      <h1 class="text center">
-          <span class="glyphicon glyphicon-fire"></span>
-              <h1>Super Popular Restaurant</h1>
-
-      
-      <h3 class="text-center">Tables are booking up fast! Reserve yours <i>now</i>!</h3>
-
-
-      <div class="text-center">
-        <a href="/tables">
-          <button type="button" class="btn btn-primary">
-                <span class="glyphicon glyphicon-list-alt">
-
-                </span></button>
-          <button class="view-tables" href="/tables"></href>
-
-      </div>
-
-      <!-- experimenting with different button aesthetic -->
-      <!--<div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-secondary">View Tables</button>
-            <button type="button" class="glyphicon glyphicon-list-alt">Reserve</span></button>
-          </div> -->
-
           
-        </div>
-      <span class="glyphicon glyphicon-list-alt">
-
-      </span>
-
-
+<div class="jumbotron">
+  <div class="header">
+    <h1>Super Hot Restaurant</h1>
       
-  </div>
+    <p>
+        <a href="/tables">
+          <button type="button" class="btn btn-primary" aria-label="Left Align">
+            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> View Tables
+          </button>
+        </a>
 
-  <script type="text/javascript">
-    document.onload
-  </script>
+        <a href="/tables">
+          <button type="button" class="btn btn-danger" aria-label="Left Align">
+            <span class="glyphicon glyphicon-check" aria-hidden="true"></span> Reserve a Table
+          </button>
+        </a>
+
+      </p>
+  </div>
+</div>       
+
+<script type="text/javascript">
+
+</script>
+
+<footer class="footer">
+  <div class="container">
+    <p>
+      <a href="api/tables">API Tables</a>
+      <a href="api/waitlist">API Waitlist</a>
+      <a href="api/githubrepogoeshere">GitHub Repo</a>
+    </p>
+  </div>
+</footer>
 
 </body>
 </html>
