@@ -3,3 +3,8 @@
     font: #fddc4a;
     background-color: blueviolet;
 }
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}

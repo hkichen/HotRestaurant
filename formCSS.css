@@ -20,7 +20,7 @@ form_main {
     height: 3px;
     left: 0;
     position: absolute;
-    width: 75px;
+    width: 100px;
 }   
 .form {
     border-radius: 7px;
@@ -48,7 +48,7 @@ form_main {
     margin: 10px 0;
     padding: 0;
     text-transform: uppercase;
-    width: 30%;
+    width: 100px;
 }
 .txt2:hover {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
