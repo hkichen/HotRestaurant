@@ -12,6 +12,11 @@
 </head>
 
 <body>
+    <div class="jumbotron">
+        <div class="header">
+
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -19,15 +24,15 @@
                     <h4 class="heading"><strong>Reserve </strong> Table <span></span></h4>
                     <div class="form">
                         <form action="serve.js" method="post" id="reserveForm" name="reserveForm">
-                            <input type="text" required="" placeholder="Reservation Name" value="" name="customerName" class="txt">
+                            <input id="customerName" type="text" required="" placeholder="Reservation Name" value="" name="customerName" class="txt">
 
-                            <input type="text" required="" placeholder="Phone..." value="" name="phoneNumber" class="txt">
+                            <input id="phoneNumber" type="text" required="" placeholder="Phone..." value="" name="phoneNumber" class="txt">
 
-                            <input type="text" required="" placeholder="Email..." value="" name="customerEmail" class="txt">
+                            <input id="customerEmail" type="text" required="" placeholder="Email..." value="" name="customerEmail" class="txt">
 
-                            <input type="text" required="" placeholder="Unique ID..." value="" name="customerID" class="txt">
+                            <input id="customerId" type="text" required="" placeholder="Unique ID..." value="" name="customerID" class="txt">
                             
-                            <input type="submit" value="submit" name="submit" class="txt2">
+                            <input id="reserveBtn" type="submit" value="submit" name="submit" class="txt2">
                         </form>
                     </div>
                 </div>
